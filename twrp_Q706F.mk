@@ -17,6 +17,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := Q706F
 
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
